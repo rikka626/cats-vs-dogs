@@ -137,7 +137,7 @@ def test():
         # 预测正确的数量
         correct += (predicted == labels).sum()
 
-epochs = 2;
+epochs = 10;
 for epoch in range(0,epochs):
     print('epoch:', epoch)
     train()
